@@ -1,0 +1,95 @@
+/*ESTILO GERAL*/
+* {
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+    font-size: 100%;
+}
+body{
+
+    background-image: linear-gradient(135deg,#0043A6,#00BBC8);
+    height: 100vh;
+    width: 100vw;
+    align-items: center;
+    background-repeat: no-repeat;
+}
+.corpo{
+    display: flex;
+    height: 95%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+/* ESTILOS */
+
+h1{
+    margin: 50px 50px;
+    font-family: "Open Sans", sans-serif;
+    color: #ffff;
+    font-weight: bold;
+    font-size: 1.5rem;
+    font-weight: 700;
+
+}
+
+#foto-perfil23{
+    background-image: url(/portfolio/imagens/LOGODEVSNAKE.png);
+    background-size: cover; 
+    /*imagem usa todo espaço da div*/
+    background-position: center;
+    /*Alinhamento da imagem dentro da div */
+    height: 230px;
+    width: 190px;
+    margin: 70px;
+    border-radius: 50%;
+    
+}
+
+/*BOTOES REDES SOCIAIS*/
+.btn-redes {
+
+    height: 40px;
+    width: 255px;
+    margin: 10px;
+    padding: 10px 40px;
+    font-size: 1.125rem ;
+    font-weight: 520;
+    background-color: #00000020;
+    border: 0;
+    border-radius: 30px;
+    position: relative;
+    cursor: pointer;
+    transition: .2s;
+}
+
+button:hover {
+    box-shadow: 0px 0px 8px #00ff08;
+    transform: scale(1.05);
+}
+
+.insta-button{
+    background-color: #00000070;
+}
+
+i{
+    position: absolute;
+    left: 42px;
+    top: 9px;
+    color: #ffff;
+}
+
+p{
+    position: absolute;
+    left: 45px;
+    top: 1px;
+    font-size: 1.125rem;
+    line-height: 1.125rem;
+
+}
+
+a {
+    text-decoration: none;
+    color: #ffff;
+
+}
